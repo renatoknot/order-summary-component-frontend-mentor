@@ -128,3 +128,61 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Styles */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  max-width: 1440px;
+  background-image: url("./images/pattern-background-desktop.svg");
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 150px !important;
+  max-width: 445px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.illustration {
+  border-radius: 20px 20px 0 0;
+}
+
+h2 {
+  font-weight: 900;
+  color: #2f3133;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+p {
+  color: #8e91a9;
+}
+
+.description {
+  width: 300px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.summary {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.summary-value {
+  display: flex;
+  flex-direction: column;
+}
