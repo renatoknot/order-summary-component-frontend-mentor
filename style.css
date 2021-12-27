@@ -135,10 +135,10 @@ body {
   font-size: 16px;
   max-width: 1440px;
   background-image: url("./images/pattern-background-desktop.svg");
-  display: flex;
+  /* display: flex;
   flex: 1;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .card {
@@ -146,7 +146,6 @@ body {
   margin-top: 150px;
   margin-bottom: 200px;
   max-width: 445px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,5 +233,23 @@ p {
 }
 
 .btn-cancel:hover {
-  color: #243046;
+  color: hsl(219, 32%, 21%);
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 50px auto;
+    max-width: 375px;
+  }
+  .illustration {
+    max-width: 375px;
+  }
+
+  .btn-payment {
+    padding: 20px;
+  }
+  .btn-cancel {
+    font-size: 14px;
+  }
 }
