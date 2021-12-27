@@ -240,10 +240,10 @@ p {
 @media only screen and (max-width: 600px) {
   .card {
     margin: 50px auto;
-    max-width: 375px;
+    max-width: 320px;
   }
   .illustration {
-    max-width: 375px;
+    max-width: 320px;
   }
 
   .btn-payment {
