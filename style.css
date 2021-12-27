@@ -187,6 +187,7 @@ p {
 .summary-value {
   display: flex;
   flex-direction: column;
+  margin-left: -70px;
 }
 .title {
   font-weight: 900;
@@ -194,19 +195,33 @@ p {
   margin-bottom: 5px;
 }
 
+.btn-summary-change a {
+  color: #6358c9;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-summary-change a:hover {
+  color: #8b82ea;
+}
+
 .btn-payment {
-  /* background-color: #3829e0; */
   background-color: #382ae1;
   border: none;
   border-radius: 10px;
   width: 75%;
   padding: 13px;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 50px;
   color: #fff;
   font-weight: 700;
+  cursor: pointer;
 }
 
+.btn-payment:hover {
+  background-color: #766cf1;
+}
 .btn-cancel {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -216,4 +231,8 @@ p {
   color: #8e91a9;
   cursor: pointer;
   font-weight: 700;
+}
+
+.btn-cancel:hover {
+  color: #243046;
 }
